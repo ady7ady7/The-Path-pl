@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background: url('road-adjusted.png') no-repeat calc(50% - 50px) top / cover;
+    color: black;
+    text-align: center;
+    overflow-y: auto;
+}
+
+body {
+    height: 2700px;
+}
+
+.resume, .trading-journey, .contact-me {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    max-width: 600px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.info {
+    display: none;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+    max-width: 600px;
+}
+
+.big-title {
+    font-size: 2em;
+    margin: 50px 0 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.61);
+}
+
+.trading-journey {
+    /* Removed padding-top */
+    position: relative;
+}
+
+.step {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.contact-me {
+    /* Removed padding-top and padding-bottom */
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: none;
+    margin-top: 20px;
+}
+
+.contact-info img {
+    max-width: 100%;
+    border-radius: 10px;
+}
