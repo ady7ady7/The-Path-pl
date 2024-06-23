@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.section');
 
-    const switchToPolishButton = document.getElementById('switch-to-polish');
-    if (switchToPolishButton) {
-        switchToPolishButton.addEventListener('click', () => {
+    const switchToEnglishButton = document.getElementById('switch-to-english');
+    if (switchToEnglishButton) {
+        switchToEnglishButton.addEventListener('click', () => {
             // Redirect to the Polish branch
-            window.location.href = 'https://ady7ady7.github.io/The-Path-pl/';
+            window.location.href = 'https://ady7ady7.github.io/The-Path/';
         });
     }
 
