@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const switchToEnglishButton = document.getElementById('switch-to-english');
     if (switchToEnglishButton) {
         switchToEnglishButton.addEventListener('click', () => {
-            // Redirect to the Polish branch
+            // Redirect to the English branch
             window.location.href = 'https://ady7ady7.github.io/The-Path/';
         });
     }
