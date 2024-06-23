@@ -88,5 +88,4 @@ document.addEventListener('DOMContentLoaded', () => {
             contactInfo.style.display = 'none';
         }
     });
-    window.scrollTo(0, 0);
 });
