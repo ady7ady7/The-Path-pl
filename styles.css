@@ -5,14 +5,14 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    background: url('road-adjusted.png') no-repeat calc(50% - 50px) top / cover;
+    background: url('road-big.png') no-repeat calc(50% - 50px) top / cover;
     color: black;
     text-align: center;
     overflow-y: auto;
 }
 
 body {
-    height: 2700px;
+    height: 2900px;
 }
 
 .resume, .trading-journey, .contact-me {
