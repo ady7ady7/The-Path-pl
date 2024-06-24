@@ -63,7 +63,6 @@ h1 {
 }
 
 .trading-journey {
-    /* Removed padding-top */
     position: relative;
 }
 
@@ -73,22 +72,24 @@ h1 {
     max-width: 550px;
 }
 
-.contact-me {
-    /* Removed padding-top and padding-bottom */
-}
-
-.contact-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 .contact-info {
     display: none;
-    margin-top: 20px;
+    opacity: 0;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 600px;
+    transition: opacity 500ms ease;
 }
 
 .contact-info img {
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
