@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showLinesWithDelay(infoBox) {
         const lines = infoBox.querySelectorAll('p');
-        let interval = 1200; // 1000ms = 1 second
+        let interval = 600; // 1000ms = 1 second
         
         // Initially hide all lines
         lines.forEach(line => {
